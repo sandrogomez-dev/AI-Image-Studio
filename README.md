@@ -58,8 +58,8 @@ graph TB
 
 ## 🚀 Demo en Vivo
 
-- **Frontend**: [https://ai-studio.tudominio.com](https://ai-studio.tudominio.com)
-- **API Docs**: [https://api.ai-studio.tudominio.com/docs](https://api.ai-studio.tudominio.com/docs)
+- **Frontend**: [https://ai-studio.tudominio.com](https://ai-image-studio-frontend.vercel.app/)
+
 
 ## ✨ Características Principales
 
@@ -322,6 +322,6 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](./LICENSE) p
 
 ---
 
-**Desarrollado con ❤️ y ☕ por [Tu Nombre]**
+**Desarrollado con ❤️ y ☕ por [Sandro Gomez]**
 
 *Construido para demostrar expertise en desarrollo fullstack, arquitectura cloud y diseño UX/UI de alto nivel.* 
