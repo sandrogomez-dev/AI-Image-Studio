@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "buildCommand": "cd frontend && rm -rf node_modules package-lock.json && npm install --no-package-lock && npm run build",
+  "outputDirectory": "frontend/.next",
+  "installCommand": "echo 'Installing in build step'",
+  "framework": "nextjs",
+  "functions": {
+    "frontend/app/**": {
+      "runtime": "nodejs18.x"
+    }
+  }
+} 

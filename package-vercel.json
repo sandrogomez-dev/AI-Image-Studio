@@ -1,0 +1,26 @@
+{
+  "name": "ai-image-studio",
+  "version": "1.0.0",
+  "description": "AI-powered image generation platform - Portfolio showcase",
+  "private": true,
+  "scripts": {
+    "build": "cd frontend && npm run build",
+    "dev": "cd frontend && npm run dev",
+    "start": "cd frontend && npm start"
+  },
+  "keywords": [
+    "ai",
+    "image-generation",
+    "nextjs",
+    "fastapi",
+    "portfolio",
+    "typescript",
+    "react"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tuusername/ai-image-studio"
+  }
+} 
