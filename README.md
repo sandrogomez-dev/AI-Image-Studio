@@ -58,7 +58,7 @@ graph TB
 
 ## 🚀 Demo en Vivo
 
-- **Frontend**: [https://ai-studio.tudominio.com](https://ai-image-studio-frontend.vercel.app/)
+- **Frontend**: [Live](https://ai-image-studio-frontend.vercel.app/)
 
 
 ## ✨ Características Principales
