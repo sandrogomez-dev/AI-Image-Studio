@@ -113,13 +113,14 @@ export default function RootLayout({ children }: RootLayoutProps) {
       >
         <QueryProvider>
           <AudioProvider>
-            <div className="relative min-h-screen">
-              <ParticleBackground />
-              <div className="relative z-10">
-                {children}
+            <ToastProvider>
+              <div className="relative min-h-screen">
+                <ParticleBackground />
+                <div className="relative z-10">
+                  {children}
+                </div>
               </div>
-            </div>
-            <ToastProvider />
+            </ToastProvider>
           </AudioProvider>
         </QueryProvider>
         

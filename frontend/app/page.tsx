@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
+import { motion } from 'framer-motion'
 import { Sparkles, Zap, Image, Palette, ArrowRight, Play, Github, ExternalLink } from 'lucide-react'
 import { HeroSection } from '@/components/sections/HeroSection'
 import { FeaturesSection } from '@/components/sections/FeaturesSection'

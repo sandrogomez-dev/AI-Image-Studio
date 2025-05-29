@@ -32,7 +32,7 @@ export function ParticleBackground() {
     }
 
     const createParticle = (x?: number, y?: number): Particle => {
-      const colors = ['#00f0ff', '#ff00aa', '#a855f7', '#3b82f6']
+      const colors = ['#00f0ff', '#ff00aa', '#a855f7', '#3b82f6'] as const
       return {
         x: x ?? Math.random() * canvas.width,
         y: y ?? Math.random() * canvas.height,
@@ -40,7 +40,7 @@ export function ParticleBackground() {
         vy: (Math.random() - 0.5) * 0.5,
         size: Math.random() * 2 + 0.5,
         opacity: Math.random() * 0.5 + 0.1,
-        color: colors[Math.floor(Math.random() * colors.length)],
+        color: colors[Math.floor(Math.random() * colors.length)] || '#00f0ff',
         life: 0,
         maxLife: Math.random() * 200 + 100,
       }
@@ -60,6 +60,7 @@ export function ParticleBackground() {
       
       for (let i = particles.length - 1; i >= 0; i--) {
         const particle = particles[i]
+        if (!particle) continue
         
         // Update position
         particle.x += particle.vx
